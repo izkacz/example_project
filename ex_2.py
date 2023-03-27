@@ -25,3 +25,9 @@ pi_zmienna=math.pi
 obwodKol=2*pi_zmienna*r
 poleKol=pi_zmienna*r**2
 print("Obwód koła wynosi"+str(obwodKol)+",a pole" +str(poleKol)+ ".")
+
+#trojkat
+c=7
+obwodTroj=a+b+c
+poleTroj=(a+b)*h/2
+print("Obwód trójkąta wynosi"+str(obwodTroj)+",a pole" +str(poleTroj)+ ".")
