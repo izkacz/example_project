@@ -19,3 +19,9 @@ r=5
 obwodTrap=a+b+(2*r)
 poleTrap=((a+b)*h/2)
 print("Obwód trapezu wynosi"+str(obwodTrap)+",a pole" +str(poleTrap)+ ".")
+
+#koło
+pi_zmienna=math.pi
+obwodKol=2*pi_zmienna*r
+poleKol=pi_zmienna*r**2
+print("Obwód koła wynosi"+str(obwodKol)+",a pole" +str(poleKol)+ ".")
