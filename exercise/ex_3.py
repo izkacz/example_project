@@ -25,13 +25,17 @@ def romb(bok, wysokosc):
 
 # trapez i kolo dla studenta 3
 def trapez(bok_a, bok_b, bok_c, bok_d, wysokosc_a):
-    # TODO
-    return 0, 0
+    obwod = bok_a + bok_b + bok_c + bok_d
+    pole = ((bok_a + bok_b) * wysokosc_a)/ 2
+    return obwod, pole
 
 
 def kolo(promien):
-    # TODO
-    return 0, 0
+    import math
+    pi_zmienna = math.pi
+    obwod = 2 * promien * pi_zmienna
+    pole = pi_zmienna * promien**2
+    return obwod, pole
 
 
 # assert trojkat(10, 15, 16, 8) == (41, 40)
