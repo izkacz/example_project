@@ -20,6 +20,7 @@ def rownoleglobok(bok_a, bok_b, wysokosc_a):
     pole = bok_a*wysokosc_a
     return obwod, pole
 
+
 def romb(bok, wysokosc):
     obwod = 4*bok
     pole = bok*wysokosc
