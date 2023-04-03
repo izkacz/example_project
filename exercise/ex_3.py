@@ -16,14 +16,12 @@ def prostokat(bok_a, bok_b):
 
 # rownoleglobok i romb dla studenta 2
 def rownoleglobok(bok_a, bok_b, wysokosc_a):
-    obwod = 2*bok_a +2*bok_b
-    pole = bok_a*wysokosc_a
-    return obwod, pole
+    # TODO
+    return 0, 0
 
 def romb(bok, wysokosc):
-    obwod = 4*bok
-    pole = bok*wysokosc
-    return obwod, pole
+    # TODO
+    return 0, 0
 
 # trapez i kolo dla studenta 3
 def trapez(bok_a, bok_b, bok_c, bok_d, wysokosc_a):
@@ -35,7 +33,7 @@ def kolo(promien):
     # TODO
     return 0, 0
 
-#
+
 # assert trojkat(10, 15, 16, 8) == (41, 40)
 # assert kwadrat(20) == (80, 400)
 # assert prostokat(12, 10) == (44, 120)
