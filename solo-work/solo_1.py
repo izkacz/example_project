@@ -33,3 +33,11 @@ potega = 4
 wynik = liczba**potega
 
 print("Wynik wynosi: " +str(wynik))
+
+# zadanie 1.6
+
+ciag_znakow = "edbw(hdakqas(skqskahb))adwndwb(wgwidn()dsqwhjdw)"
+nawias = "("
+liczba_nawiasow_otwierajacych = ciag_znakow.count(nawias)
+
+print("Liczba nawiasow otwierajacych wynosi: " + str(liczba_nawiasow_otwierajacych))
