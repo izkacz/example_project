@@ -55,3 +55,12 @@ studenci2 = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedn
 posortowaneNazwiska = sorted(studenci2, key=lambda x: x.split()[1])
 for student in posortowaneNazwiska:
     print(student)
+
+# zadanie 1.9
+
+studenci3 = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
+liczba_n = 0
+for i in studenci3:
+    if i.split()[1].startswith("N"):
+        liczba_n+=1
+print("Liczba studentow na N wynosi: "+ str(liczba_n))
