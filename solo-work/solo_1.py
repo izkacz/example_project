@@ -48,3 +48,10 @@ studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny
 posortowaniStudenci = sorted(studenci)
 for student in posortowaniStudenci:
     print(student)
+
+# zadanie 1.8
+
+studenci2 = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
+posortowaneNazwiska = sorted(studenci2, key=lambda x: x.split()[1])
+for student in posortowaneNazwiska:
+    print(student)
