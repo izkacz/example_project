@@ -41,3 +41,10 @@ nawias = "("
 liczba_nawiasow_otwierajacych = ciag_znakow.count(nawias)
 
 print("Liczba nawiasow otwierajacych wynosi: " + str(liczba_nawiasow_otwierajacych))
+
+# zadanie 1.7
+
+studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
+posortowaniStudenci = sorted(studenci)
+for student in posortowaniStudenci:
+    print(student)
