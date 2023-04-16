@@ -29,8 +29,6 @@ liczba_nawiasow_otwierajacych = ciag_znakow.count("(")
 print("Liczba nawiasow otwierajacych wynosi: " + str(liczba_nawiasow_otwierajacych))
 
 # zadanie 1.7
-
-# posortuj alfabetycznie (od imienia) studentow
 studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
 
 studenci.sort()
@@ -39,21 +37,13 @@ for student in studenci:
     print(student)
 
 # zadanie 1.8
-
-# posortuj alfabetycznie (od nazwiska) studentow
 studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
 studenci_posortowani = sorted(studenci, key=lambda x: x.split()[-1])
-# oczekiwany rezultat:
-# Barbara Kowalska
-# Jan Niezbedny
-# Tomasz Nijaki
-# Anna Szczesny
 print("Alfabetyczna lista studentow wynosi: ")
 for student in studenci_posortowani:
     print(student)
 
 # zadanie 1.9
-# policz wszystkich studentow z tablicy, ktorych nazwisko zaczyna sie na N
 studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
 
 liczba_n = 0
