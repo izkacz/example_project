@@ -44,8 +44,10 @@ def kolo(promien):
 
 
 # assert trojkat(10, 15, 16, 8) == (41, 40)
-# assert kwadrat(20) == (80, 400)
-# assert prostokat(12, 10) == (44, 120)
+assert kwadrat(20) == (80, 400)
+assert kwadrat(10) == (40, 100)
+assert prostokat(12, 10) == (44, 120)
+assert prostokat(6, 8) == (28, 48)
 # assert rownoleglobok(6, 5, 2) == (22, 12)
 # assert romb(10, 5) == (40, 50)
 # assert trapez(10, 15, 7, 14, 2) == (45, 25)
