@@ -46,7 +46,9 @@ def kolo(promien):
 # assert trojkat(10, 15, 16, 8) == (41, 40)
 # assert kwadrat(20) == (80, 400)
 # assert prostokat(12, 10) == (44, 120)
-# assert rownoleglobok(6, 5, 2) == (22, 12)
-# assert romb(10, 5) == (40, 50)
+assert rownoleglobok(6, 5, 2) == (22, 12)
+assert rownoleglobok(15, 8, 3) == (46, 45)
+assert romb(10, 5) == (40, 50)
+assert romb(13, 7) == (52, 91)
 # assert trapez(10, 15, 7, 14, 2) == (45, 25)
 # TODO na koniec! dopisz 2 testy dla kola i dla kazdej innej figury po jednym dodatkowym tescie
