@@ -4,7 +4,7 @@ def trojkat(bok_a, bok_b, bok_c, wysokosc_a):
     return obwod, pole
 
 
-# kwadrat, prostokat dla studenta 1 (próba druga)
+# kwadrat, prostokat dla studenta 1
 def kwadrat(bok):
     obwod1 = 4*bok
     pole1 = bok*bok
