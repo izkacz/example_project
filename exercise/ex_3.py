@@ -19,6 +19,7 @@ def rownoleglobok(bok_a, bok_b, wysokosc_a):
     # TODO
     return 0, 0
 
+
 def romb(bok, wysokosc):
     # TODO
     return 0, 0
