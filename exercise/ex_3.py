@@ -42,8 +42,13 @@ def kolo(promien):
     pole = pi_zmienna * promien**2
     return obwod, pole
 
-
-# assert trojkat(10, 15, 16, 8) == (41, 40)
+import math
+assert trojkat(10, 15, 16, 8) == (41, 40)
+assert trapez(10, 15, 7, 14, 2) == (46, 25)
+assert kolo(2) == (4*math.pi, 4*math.pi)
+assert trojkat(6, 7, 10, 5) == (23, 15)
+assert trapez(20, 17, 12, 8, 6) == (57, 111)
+assert kolo(3) == (6*math.pi, 9*math.pi)
 assert kwadrat(20) == (80, 400)
 assert kwadrat(10) == (40, 100)
 assert prostokat(12, 10) == (44, 120)
@@ -52,5 +57,3 @@ assert rownoleglobok(6, 5, 2) == (22, 12)
 assert rownoleglobok(15, 8, 3) == (46, 45)
 assert romb(10, 5) == (40, 50)
 assert romb(13, 7) == (52, 91)
-# assert trapez(10, 15, 7, 14, 2) == (45, 25)
-# TODO na koniec! dopisz 2 testy dla kola i dla kazdej innej figury po jednym dodatkowym tescie
