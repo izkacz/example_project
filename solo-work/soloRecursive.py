@@ -42,6 +42,7 @@ def findMax(lista):
 list2 = [10, 11, 3, 6, 8, 17, 5, 9]
 print(findMax(list2))
 
+
 # function that returns element of fibonacci
 # fibonacci int i
 # is i between 0 or 1?
@@ -49,9 +50,25 @@ print(findMax(list2))
 # no -> return sum of 2 previous elements
 
 def fibonacci(i):
-    if i-1<=1:
+    if i - 1 <= 1:
         return 1
     else:
-        return fibonacci(i-1)+fibonacci(i-2)
+        return fibonacci(i - 1) + fibonacci(i - 2)
+
 
 print(fibonacci(7))
+
+
+# function returning factorial of some number
+# factorial int i
+# is i = 1?
+# yes -> return 1
+# no -> return i * wynik poprzedniego dzialania
+
+def factorial(i):
+    if i == 1:
+        return i
+    else:
+        return i * factorial(i - 1)
+
+print(factorial(5))
